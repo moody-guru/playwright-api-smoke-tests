@@ -1,0 +1,18 @@
+{
+  "name": "playwright-api-smoke-tests",
+  "version": "1.0.0",
+  "description": "Simple Playwright smoke tests against a public API",
+  "scripts": {
+    "test": "npx playwright test tests/simple-api.spec.js",
+    "test:headed": "npx playwright test tests/simple-api.spec.js --headed",
+    "test:debug": "npx playwright test tests/simple-api.spec.js --debug",
+    "beeceptor:demo": "node scripts/beeceptor-demo.js",
+    "beeceptor:demo:headless": "powershell -Command \"$env:BEECEPTOR_DEMO_HEADLESS='1'; node scripts/beeceptor-demo.js\"",
+    "report": "npx playwright show-report",
+    "codegen": "npx playwright codegen"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "dotenv": "^16.5.0"
+  }
+}
