@@ -143,3 +143,10 @@ furnished to do so, subject to the following conditions:
 ```
 
 See [LICENSE](./LICENSE) for the full license text.
+
+
+## Demo Screenshot
+
+Below is a sample run of the Beeceptor demo automation in headed mode.
+![Beeceptor demo run]<img width="1867" height="1071" alt="image" src="https://github.com/user-attachments/assets/d669e3eb-d7a0-40dd-a013-fefc058779a8" />
+
